@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CommonAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 49
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 27236be7c0f814995bf8f7d4965aae17, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 1677957063283f3408b848536f5ca28e, type: 3}
+  - {fileID: 21300000, guid: 45a6b3d0d399c3d40abbdf42f4758c5d, type: 3}
+  - {fileID: 21300000, guid: faa309e103bf97b48bdbce171d58f077, type: 3}
+  - {fileID: 21300000, guid: 8a432fa4659b6444ebded442b198d86a, type: 3}
+  - {fileID: 21300000, guid: 09565397000b3344b8cc619c452c2b9d, type: 3}
+  - {fileID: 21300000, guid: 27ec2bd7077673f4aab6f2e95c571d68, type: 3}
+  - {fileID: 21300000, guid: d4b2b18808528a448982dca1b4732724, type: 3}
+  - {fileID: 21300000, guid: d676796aa4c004f439af6231f924ca38, type: 3}
+  - {fileID: 21300000, guid: 910239db230a8094ea5547e7a0b38c39, type: 3}
+  - {fileID: 21300000, guid: cf85d20c11930594c94dd9b6b6204665, type: 3}
+  - {fileID: 21300000, guid: 612ef0fcac107134ea60188067d8f9ad, type: 3}
+  - {fileID: 21300000, guid: 3822126d5de72e242a08fc79c8d2e5e0, type: 3}
+  - {fileID: 21300000, guid: 062ef0ad9a9c6a64781d80938e9d3de6, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - ui_activityroom_icon_download
+  - ui_activityroom_slider_center
+  - ui_activityroom_bg_shadow
+  - ui_activityroom_bg_room
+  - ui_activityroom_slider_bg
+  - ui_activityroom_icon_lock
+  - ui_activityroom_bg_tag
+  - ui_activityroom_slider_bottom1
+  - ui_activityroom_bg_hint
+  - ui_activityroom_bg_hint2
+  - ui_activityroom_bg_name
+  - ui_activityroom_slider_top2
+  - ui_activityroom_bg_info
+  m_Tag: CommonAtlas
+  m_IsVariant: 0
