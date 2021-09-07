@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-public class AutoMation : Editor
+public class Automation : Editor
 {
     [MenuItem("Automation/Tools/Build/AndroidBuild", false, 5)]
     public static void AndroidBuild()
