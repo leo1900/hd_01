@@ -58,31 +58,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FrameWork\Asset\AssetBundle\Editor\AssetBundleSet.cs" />
-     <Compile Include="Assets\FrameWork\Asset\AssetBundle\Editor\AssetPatchVersionConfig.cs" />
-     <Compile Include="Assets\FrameWork\Asset\AssetBundle\Editor\BuildAssetBundles.CommonRes.cs" />
-     <Compile Include="Assets\FrameWork\Asset\AssetBundle\Editor\BuildAssetBundles.CookingGame.cs" />
-     <Compile Include="Assets\FrameWork\Asset\AssetBundle\Editor\BuildAssetBundles.HomeRoom.cs" />
-     <Compile Include="Assets\FrameWork\Asset\AssetBundle\Editor\BuildAssetBundles.Local.cs" />
-     <Compile Include="Assets\FrameWork\Asset\AssetBundle\Editor\BuildAssetBundles.Monitor.cs" />
-     <Compile Include="Assets\FrameWork\Asset\AssetBundle\Editor\BuildAssetBundles.SpriteAtlas.cs" />
-     <Compile Include="Assets\FrameWork\Asset\AssetBundle\Editor\BuildAssetBundles.cs" />
-     <Compile Include="Assets\FrameWork\Asset\AssetBundle\Editor\BuildAssetbundles.ResPublicLibrary.cs" />
-     <Compile Include="Assets\FrameWork\Asset\AssetBundle\Editor\ResPublicLibraryViewEditor.cs" />
-     <Compile Include="Assets\FrameWork\ThirdParty\StompyRobot\SRDebugger\Scripts\Editor\ApiSignup.cs" />
-     <Compile Include="Assets\FrameWork\ThirdParty\StompyRobot\SRDebugger\Scripts\Editor\ApiSignupWindow.cs" />
-     <Compile Include="Assets\FrameWork\ThirdParty\StompyRobot\SRDebugger\Scripts\Editor\Migrations.cs" />
-     <Compile Include="Assets\FrameWork\ThirdParty\StompyRobot\SRDebugger\Scripts\Editor\ProfilerCameraListenerEditor.cs" />
-     <Compile Include="Assets\FrameWork\ThirdParty\StompyRobot\SRDebugger\Scripts\Editor\SROptionsWindow.cs" />
-     <Compile Include="Assets\FrameWork\ThirdParty\StompyRobot\SRDebugger\Scripts\Editor\SettingsEditor.cs" />
-     <Compile Include="Assets\FrameWork\ThirdParty\StompyRobot\SRDebugger\Scripts\Editor\SettingsWindow.cs" />
-     <Compile Include="Assets\FrameWork\ThirdParty\StompyRobot\SRDebugger\Scripts\Editor\WelcomeWindow.cs" />
-     <Compile Include="Assets\FrameWork\ThirdParty\StompyRobot\SRF\Scripts\UI\Editor\CopyLayoutElementEditor.cs" />
-     <Compile Include="Assets\FrameWork\ThirdParty\StompyRobot\SRF\Scripts\UI\Editor\CopyPreferredSizeEditor.cs" />
-     <Compile Include="Assets\FrameWork\ThirdParty\StompyRobot\SRF\Scripts\UI\Editor\LongPressButtonEditor.cs" />
-     <Compile Include="Assets\FrameWork\ThirdParty\StompyRobot\SRF\Scripts\UI\Editor\SRNumberButtonEditor.cs" />
-     <Compile Include="Assets\FrameWork\ThirdParty\StompyRobot\SRF\Scripts\UI\Editor\StyleComponentEditor.cs" />
-     <Compile Include="Assets\FrameWork\ThirdParty\StompyRobot\SRF\Scripts\UI\Editor\StyleSheetEditor.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\Asset\AssetBundle\Editor\AssetBundleSet.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\Asset\AssetBundle\Editor\AssetPatchVersionConfig.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\Asset\AssetBundle\Editor\BuildAssetBundles.CommonRes.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\Asset\AssetBundle\Editor\BuildAssetBundles.CookingGame.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\Asset\AssetBundle\Editor\BuildAssetBundles.HomeRoom.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\Asset\AssetBundle\Editor\BuildAssetBundles.Local.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\Asset\AssetBundle\Editor\BuildAssetBundles.Monitor.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\Asset\AssetBundle\Editor\BuildAssetBundles.SpriteAtlas.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\Asset\AssetBundle\Editor\BuildAssetBundles.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\Asset\AssetBundle\Editor\BuildAssetbundles.ResPublicLibrary.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\Asset\AssetBundle\Editor\ResPublicLibraryViewEditor.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\Editor\AutoMation.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\ThirdParty\StompyRobot\SRDebugger\Scripts\Editor\ApiSignup.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\ThirdParty\StompyRobot\SRDebugger\Scripts\Editor\ApiSignupWindow.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\ThirdParty\StompyRobot\SRDebugger\Scripts\Editor\Migrations.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\ThirdParty\StompyRobot\SRDebugger\Scripts\Editor\ProfilerCameraListenerEditor.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\ThirdParty\StompyRobot\SRDebugger\Scripts\Editor\SROptionsWindow.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\ThirdParty\StompyRobot\SRDebugger\Scripts\Editor\SettingsEditor.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\ThirdParty\StompyRobot\SRDebugger\Scripts\Editor\SettingsWindow.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\ThirdParty\StompyRobot\SRDebugger\Scripts\Editor\WelcomeWindow.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\ThirdParty\StompyRobot\SRF\Scripts\UI\Editor\CopyLayoutElementEditor.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\ThirdParty\StompyRobot\SRF\Scripts\UI\Editor\CopyPreferredSizeEditor.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\ThirdParty\StompyRobot\SRF\Scripts\UI\Editor\LongPressButtonEditor.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\ThirdParty\StompyRobot\SRF\Scripts\UI\Editor\SRNumberButtonEditor.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\ThirdParty\StompyRobot\SRF\Scripts\UI\Editor\StyleComponentEditor.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\ThirdParty\StompyRobot\SRF\Scripts\UI\Editor\StyleSheetEditor.cs" />
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>/Users/shouyu.liu/Documents/GitHub/hd_01/hd_unity/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
@@ -345,10 +346,10 @@
  <HintPath>/Applications/Unity/Hub/Editor/2019.4.23f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Google.Protobuf">
- <HintPath>/Users/shouyu.liu/Documents/GitHub/hd_01/hd_unity/Assets/FrameWork/ThirdParty/Google.Protobuf.dll</HintPath>
+ <HintPath>/Users/shouyu.liu/Documents/GitHub/hd_01/hd_unity/Assets/Scripts/FrameWork/ThirdParty/Google.Protobuf.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>/Users/shouyu.liu/Documents/GitHub/hd_01/hd_unity/Assets/FrameWork/ThirdParty/JsonNet/Newtonsoft.Json.dll</HintPath>
+ <HintPath>/Users/shouyu.liu/Documents/GitHub/hd_01/hd_unity/Assets/Scripts/FrameWork/ThirdParty/JsonNet/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>/Users/shouyu.liu/Documents/GitHub/hd_01/hd_unity/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
