@@ -117,7 +117,7 @@ public class Automation : Editor
         //     FacebookConfigInfo fbInfo = info.m_Map[Constants.FaceBook] as FacebookConfigInfo;
         //     SDKEditor.SetFacebook(fbInfo.AppID);
         // }
-
+        Debug.Log("AfterBuild ----1");
 #if UNITY_2018_4_OR_NEWER || UNITY_2019_1_OR_NEWER
 
         //强制设置NDK版本
@@ -132,7 +132,8 @@ public class Automation : Editor
         if (!EditorPrefs.HasKey("AndroidNdkRootR19") || string.IsNullOrEmpty(EditorPrefs.GetString("AndroidNdkRootR19")))
             EditorPrefs.SetString("AndroidNdkRootR19", "/Users/dragonplus/Downloads/android-ndk-r19");
 #endif
-        
+        Debug.Log("AfterBuild ----2");
+
 
         BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
         buildPlayerOptions.scenes = GetScenes();
@@ -144,6 +145,7 @@ public class Automation : Editor
         if (target == BuildTarget.Android)
         {
             platform = "Android";
+            Debug.Log("AfterBuild ----3");
 
             EditorUserBuildSettings.androidCreateSymbolsZip = false;
             if (!isDebug)
@@ -188,6 +190,8 @@ public class Automation : Editor
                 EditorUserBuildSettings.buildAppBundle = false;
 
 #endif
+            Debug.Log("AfterBuild ----4");
+
         }
         else if (target == BuildTarget.iOS)
         {
@@ -217,6 +221,7 @@ public class Automation : Editor
 
         buildPlayerOptions.locationPathName = platformFolder;
 
+        Debug.Log("AfterBuild ----5");
 
         buildPlayerOptions.target = target;
         if (isDebug)
