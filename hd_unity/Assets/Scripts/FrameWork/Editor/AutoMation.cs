@@ -12,8 +12,8 @@ public class Automation : Editor
     [MenuItem("Automation/Tools/Build/AndroidBuild", false, 5)]
     public static void AndroidBuild()
     {
-        Build(BuildTarget.Android);
         Debug.Log("AndroidBuild  Start-----------------------");
+        Build(BuildTarget.Android);
     }
      
     [MenuItem("Automation/Tools/Build/iOSBuild", false, 4)]
