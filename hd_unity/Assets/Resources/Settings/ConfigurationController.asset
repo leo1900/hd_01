@@ -24,10 +24,10 @@ MonoBehaviour:
   Res_Server_URL_Release: http://res.techvisionjoy.com/myrestaurant/
   Res_Server_URL_Beta: https://res.starcdn.cn/cooking7/
   AndroidKeyStoreUseConfiguration: 1
-  AndroidKeyStorePath: /Users/dragonplus/techvision.keystore
-  AndroidKeyStorePass: TechVision123
-  AndroidKeyStoreAlias: techvision.keystore
-  AndroidKeyStoreAliasPass: TechVision123
+  AndroidKeyStorePath: /Users/shouyu.liu/hd.keystore
+  AndroidKeyStorePass: liusy1991
+  AndroidKeyStoreAlias: hd
+  AndroidKeyStoreAliasPass: liusy1991
   _AesKey: 
   _RC4Key: 
   kUserPermissionLoginToken: 1
