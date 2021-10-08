@@ -105,52 +105,37 @@ public class Automation : Editor
     
     static void AfterBuild(BuildTarget target, bool isDebug = false)
     {
-//         // SDKEditor.SetFirebase();
-//         PluginConfigInfo info = PluginsInfoManager.LoadPluginConfig();
-//         if (info != null && info.m_Map.ContainsKey(Constants.FaceBook))
-//         {
-//             FacebookConfigInfo fbInfo = info.m_Map[Constants.FaceBook] as FacebookConfigInfo;
-//             SDKEditor.SetFacebook(fbInfo.AppID);
-//         }
-//
-// #if !UNITY_2019_1_OR_NEWER
-//         //所有项目已经弃用 2018.4以下，2019.2以下版本。NDK统一为r16b,以下代码已无用。
-//         //if (!EditorPrefs.HasKey("AndroidNdkRoot") && string.IsNullOrEmpty(EditorPrefs.GetString("AndroidNdkRoot")))
-//         //{
-//         //    EditorPrefs.SetString("AndroidNdkRoot", "/Users/dragonplus/Downloads/android-ndk-r13b");
-//         //}
-//
-//         //if (!EditorPrefs.HasKey("JdkPath") || string.IsNullOrEmpty(EditorPrefs.GetString("JdkPath")))
-//         //{
-//         //    EditorPrefs.SetString("JdkPath", "/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/");
-//         //}
-//
-//         //if (!EditorPrefs.HasKey("AndroidSdkRoot") || string.IsNullOrEmpty(EditorPrefs.GetString("AndroidSdkRoot")))
-//         //{
-//         //    EditorPrefs.SetString("AndroidSdkRoot", "/Users/dragonplus/Library/Android/sdk");
-//         //}
-//
-// #endif
-//         DebugUtil.Log("Android NDK Path is now {0}", EditorPrefs.GetString("AndroidNdkRoot"));
-//
-// #if UNITY_2018_4_OR_NEWER || UNITY_2019_1_OR_NEWER
-//
-//         //强制设置NDK版本
-//         //Unity修改本 key 为 AndroidNdkRootR16b，详见：https://forum.unity.com/threads/android-ndk-path-editorprefs-key-changed.639103/
-//         if (!EditorPrefs.HasKey("AndroidNdkRoot") || string.IsNullOrEmpty(EditorPrefs.GetString("AndroidNdkRoot")))
-//             EditorPrefs.SetString("AndroidNdkRoot", "/Users/dragonplus/Downloads/android-ndk-r16b");
-//         if (!EditorPrefs.HasKey("AndroidNdkRootR16b") || string.IsNullOrEmpty(EditorPrefs.GetString("AndroidNdkRootR16b")))
-//             EditorPrefs.SetString("AndroidNdkRootR16b", "/Users/dragonplus/Downloads/android-ndk-r16b");
-// #endif
-//         
-// #if UNITY_2019_3_OR_NEWER
-//         if (!EditorPrefs.HasKey("AndroidNdkRootR19") || string.IsNullOrEmpty(EditorPrefs.GetString("AndroidNdkRootR19")))
-//             EditorPrefs.SetString("AndroidNdkRootR19", "/Users/dragonplus/Downloads/android-ndk-r19");
-// #endif
-//         
-//
-           BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
-         buildPlayerOptions.scenes = GetScenes();
+        // SDKEditor.SetFirebase();
+        // PluginConfigInfo info = PluginsInfoManager.LoadPluginConfig();
+        // if (info != null && info.m_Map.ContainsKey(Constants.FaceBook))
+        // {
+        //     FacebookConfigInfo fbInfo = info.m_Map[Constants.FaceBook] as FacebookConfigInfo;
+        //     SDKEditor.SetFacebook(fbInfo.AppID);
+        // }     // PluginConfigInfo info = PluginsInfoManager.LoadPluginConfig();
+        // if (info != null && info.m_Map.ContainsKey(Constants.FaceBook))
+        // {
+        //     FacebookConfigInfo fbInfo = info.m_Map[Constants.FaceBook] as FacebookConfigInfo;
+        //     SDKEditor.SetFacebook(fbInfo.AppID);
+        // }
+
+#if UNITY_2018_4_OR_NEWER || UNITY_2019_1_OR_NEWER
+
+        //强制设置NDK版本
+        //Unity修改本 key 为 AndroidNdkRootR16b，详见：https://forum.unity.com/threads/android-ndk-path-editorprefs-key-changed.639103/
+        if (!EditorPrefs.HasKey("AndroidNdkRoot") || string.IsNullOrEmpty(EditorPrefs.GetString("AndroidNdkRoot")))
+            EditorPrefs.SetString("AndroidNdkRoot", "/Users/dragonplus/Downloads/android-ndk-r16b");
+        if (!EditorPrefs.HasKey("AndroidNdkRootR16b") || string.IsNullOrEmpty(EditorPrefs.GetString("AndroidNdkRootR16b")))
+            EditorPrefs.SetString("AndroidNdkRootR16b", "/Users/dragonplus/Downloads/android-ndk-r16b");
+#endif
+        
+#if UNITY_2019_3_OR_NEWER
+        if (!EditorPrefs.HasKey("AndroidNdkRootR19") || string.IsNullOrEmpty(EditorPrefs.GetString("AndroidNdkRootR19")))
+            EditorPrefs.SetString("AndroidNdkRootR19", "/Users/dragonplus/Downloads/android-ndk-r19");
+#endif
+        
+
+        BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
+        buildPlayerOptions.scenes = GetScenes();
 
         PlayerSettings.SplashScreen.showUnityLogo = false;
 
@@ -164,11 +149,6 @@ public class Automation : Editor
             if (!isDebug)
             {
                 EditorUserBuildSettings.androidCreateSymbolsZip = true;
-
-                //PlayerSettings.Android.keystoreName = "/Users/dragonplus/flydragon.keystore";
-                //PlayerSettings.Android.keystorePass = "FlyDragon123";
-                //PlayerSettings.Android.keyaliasName = "flydragon.keystore";
-                //PlayerSettings.Android.keyaliasPass = "FlyDragon123";
 
 #if UNITY_2019_1_OR_NEWER
 
@@ -247,7 +227,7 @@ public class Automation : Editor
         //{
         //    buildPlayerOptions.options = BuildOptions.None;
         //}
-
+        Debug.Log("AndroidBuild  Start2-----------------------");
         BuildReport report = BuildPipeline.BuildPlayer(buildPlayerOptions);
         BuildSummary summary = report.summary;
         // CheckAppLovinMAXQualityService();
