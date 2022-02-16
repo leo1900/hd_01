@@ -106,7 +106,7 @@ namespace BestHTTP.SecureProtocol.Org.BouncyCastle.X509.Store
 
 						for (int i = 0; i < targetss.Length && !found; i++)
 						{
-							Target[] targets = targetss[i].GetTargets();
+							BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.Target[] targets = targetss[i].GetTargets();
 
 							for (int j = 0; j < targets.Length; j++)
 							{
@@ -131,7 +131,7 @@ namespace BestHTTP.SecureProtocol.Org.BouncyCastle.X509.Store
 
 						for (int i = 0; i < targetss.Length && !found; i++)
 						{
-							Target[] targets = targetss[i].GetTargets();
+							BestHTTP.SecureProtocol.Org.BouncyCastle.Asn1.X509.Target[] targets = targetss[i].GetTargets();
 
 							for (int j = 0; j < targets.Length; j++)
 							{
