@@ -26,7 +26,7 @@ MonoBehaviour:
   AndroidKeyStoreUseConfiguration: 1
   AndroidKeyStorePath: /Users/shouyu.liu/hd.keystore
   AndroidKeyStorePass: liusy1991
-  AndroidKeyStoreAlias: hd
+  AndroidKeyStoreAlias: 123
   AndroidKeyStoreAliasPass: liusy1991
   _AesKey: 
   _RC4Key: 
