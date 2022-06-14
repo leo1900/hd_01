@@ -84,9 +84,6 @@
      <Compile Include="Assets\Scripts\FrameWork\ThirdParty\StompyRobot\SRF\Scripts\UI\Editor\SRNumberButtonEditor.cs" />
      <Compile Include="Assets\Scripts\FrameWork\ThirdParty\StompyRobot\SRF\Scripts\UI\Editor\StyleComponentEditor.cs" />
      <Compile Include="Assets\Scripts\FrameWork\ThirdParty\StompyRobot\SRF\Scripts\UI\Editor\StyleSheetEditor.cs" />
-     <Compile Include="Assets\_\Stuff\Videos\CraftingSystemSO\Scripts\Editor\RecipeScriptableObjectEditor.cs" />
-     <Compile Include="Assets\_\Stuff\Videos\EditorClicks\Scripts\Editor\CustomActionEditor.cs" />
-     <Compile Include="Assets\_\Stuff\Videos\Splines\Scripts\Editor\SplineEditor.cs" />
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>/Users/shouyu.liu/Documents/GitHub/hd_01/hd_unity/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
@@ -158,33 +155,6 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>/Users/shouyu.liu/Documents/GitHub/hd_01/hd_unity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
- <HintPath>/Users/shouyu.liu/Documents/GitHub/hd_01/hd_unity/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Universal.Shaders">
- <HintPath>/Users/shouyu.liu/Documents/GitHub/hd_01/hd_unity/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Core.Editor">
- <HintPath>/Users/shouyu.liu/Documents/GitHub/hd_01/hd_unity/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Core.Runtime">
- <HintPath>/Users/shouyu.liu/Documents/GitHub/hd_01/hd_unity/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Universal.Runtime">
- <HintPath>/Users/shouyu.liu/Documents/GitHub/hd_01/hd_unity/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Universal.Editor">
- <HintPath>/Users/shouyu.liu/Documents/GitHub/hd_01/hd_unity/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
- <HintPath>/Users/shouyu.liu/Documents/GitHub/hd_01/hd_unity/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ShaderGraph.Editor">
- <HintPath>/Users/shouyu.liu/Documents/GitHub/hd_01/hd_unity/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
- <HintPath>/Users/shouyu.liu/Documents/GitHub/hd_01/hd_unity/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Applications/Unity/Hub/Editor/2019.4.23f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -380,9 +350,6 @@
  </Reference>
  <Reference Include="Newtonsoft.Json">
  <HintPath>/Users/shouyu.liu/Documents/GitHub/hd_01/hd_unity/Assets/Scripts/FrameWork/ThirdParty/JsonNet/Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="ICSharpCode.NRefactory">
- <HintPath>/Users/shouyu.liu/Documents/GitHub/hd_01/hd_unity/Library/PackageCache/com.unity.render-pipelines.core@7.5.3/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>/Users/shouyu.liu/Documents/GitHub/hd_01/hd_unity/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -752,10 +719,6 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{DD61E984-9E5F-77A2-C67E-999E07448495}</Project>
       <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="V_Animation.csproj">
-      <Project>{11BBE7E2-261C-8499-680D-0C8CA294BC5A}</Project>
-      <Name>V_Animation</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
