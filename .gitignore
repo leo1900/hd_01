@@ -12,3 +12,11 @@ hd_unity/.idea/.idea.hd_unity/.idea/contentModel.xml
 hd_unity/.idea
 hd_unity/obj
 hd_unity/Android/build/hd_unity.apk
+hd_unity/AssetBundleOut/
+hd_unity/AssetBundlePatch/
+
+hd_unity/Assets/Resources/versionfile/Version.txt
+hd_unity/Assets/Resources/versionfile/Version.txt.meta
+hd_unity/Assembly-CSharp-Editor.csproj
+hd_unity/Assets/Resources/versionfile.meta
+hd_unity/Assembly-CSharp-Editor.csproj

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AtlasPathNodeList:
   - AtlasName: CommonAtlas
-    HdPath: Assets/Export/SpriteAtlas/CommonAtlas/Hd
-    SdPath: Assets/Export/SpriteAtlas/CommonAtlas/Sd
+    HdPath: SpriteAtlas/CommonAtlas/Hd/CommonAtlas
+    SdPath: SpriteAtlas/CommonAtlas/Sd/CommonAtlas
