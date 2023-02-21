@@ -235,8 +235,6 @@ namespace DragonU3DSDK.Asset
             BuildAllAssetBundleWithOptions(recommandBundleOptions);
             
             BuildPost();
-
-            PatchResPubLibraryCommit();
             
             DebugUtil.Log("BuildAllAssetBundle finish");
         }

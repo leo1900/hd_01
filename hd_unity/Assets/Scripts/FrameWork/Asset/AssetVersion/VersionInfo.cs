@@ -21,12 +21,10 @@ namespace DragonU3DSDK.Asset
 
         public string UnityVersion;
         
-        public List<ResPublicLibraryCommit> ResPublicLibraryCommits;
 
         public VersionInfo()
         {
             ResGroups = new Dictionary<string, VersionItemInfo>();
-            ResPublicLibraryCommits = new List<ResPublicLibraryCommit>();
         }
 
         public VersionInfo Clone()

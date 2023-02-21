@@ -145,21 +145,9 @@ namespace DragonU3DSDK.Asset
                 Directory.Delete(FilePathTools.streamingAssetsPath_Platform, true);
             
             
-            //----------------- 将公共库commit信息写入version文件 ----------------//
-            foreach (var p in GetCommits(EditorUserBuildSettings.activeBuildTarget))
-            {
-                RemoteVersion.ResPublicLibraryCommits.Add(p);
-                LocalVersion.ResPublicLibraryCommits.Add(p);
-            }
-            
+        
             //---------------------- 获取外部version ----------------------------//
             OutsideAssetVersion = new Dictionary<string, VersionInfo>();
-            foreach (var p in GetCommits(EditorUserBuildSettings.activeBuildTarget))
-            {
-                VersionInfo info = new VersionInfo();
-                RequestResPublicLibraryVersionFile(p, EditorUserBuildSettings.activeBuildTarget, ref info);
-                OutsideAssetVersion.Add(p.CustomName, info);
-            }
             
             float deltaProgress = 0.8f / AssetConfigController.Instance.Groups.Length;
             for (int i = 0; i < AssetConfigController.Instance.Groups.Length; i++)
@@ -208,30 +196,7 @@ namespace DragonU3DSDK.Asset
                 }
             }
             //工程外资源
-            //------- 下载 InInitialPacket==true 的包到streamingasset文件夹下 ---------//
-            foreach (BundleGroup group in AssetConfigController.Instance.Groups)
-            {
-                List<BundleState> paths = group.GetInInitialPacketOutsideBundles();
-                foreach (BundleState item in paths)
-                {
-                    string group_name = string.IsNullOrEmpty(item.GroupOutside) ? group.GroupName : item.GroupOutside;
-                    string path_name = string.IsNullOrEmpty(item.PathOutside) ? item.Path : item.PathOutside;
-                    string remoteMd5 = OutsideAssetVersion[item.NameOutside].GetAssetBundleMd5(group_name, path_name.ToLower() + ".ab");
-                    if (!string.IsNullOrEmpty(remoteMd5))
-                    {
-                        DownloadResPublicLibraryAssetBundles(
-                            GetCommit(item.NameOutside, EditorUserBuildSettings.activeBuildTarget),
-                            EditorUserBuildSettings.activeBuildTarget,
-                            item, 
-                            FilePathTools.streamingAssetsPath_Platform, 
-                            remoteMd5);
-                    }
-                    else
-                    {
-                        throw new Exception($"The md5 value of {path_name} is null");
-                    }
-                }
-            }
+         
 
             Action endAction = () =>
             {
@@ -1491,10 +1456,7 @@ namespace DragonU3DSDK.Asset
                 
                 UnityVersion = checkVersionLocal.UnityVersion
             };
-            foreach (var p in GetCommits(EditorUserBuildSettings.activeBuildTarget))
-            {
-                checkVersionCalculate.ResPublicLibraryCommits.Add(p);
-            }
+            
             foreach (BundleGroup group in AssetConfigController.Instance.Groups)
             {
                 VersionItemInfo item = new VersionItemInfo
