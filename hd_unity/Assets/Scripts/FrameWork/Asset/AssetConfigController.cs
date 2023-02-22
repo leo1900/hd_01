@@ -185,11 +185,6 @@ namespace DragonU3DSDK.Asset
         public bool CopyBundleToDownloadPath = false;
 
         [Space(10)]
-        [Header("[公共库资源在编辑器环境下     true:使用AB包  false:使用编辑器里资源]")]
-        [Header("------------------ ResPubLibraryUseAssetBundle--------------------")]
-        public bool ResPubLibraryUseAssetBundle = true;
-        
-        [Space(10)]
         [Header("[填入相对Assets/Export的相对路径，大小写敏感，只支持文件夹]")]
         [Header(" ---------------------- AB包分组 -----------------------")]
         public BundleGroup[] Groups;
