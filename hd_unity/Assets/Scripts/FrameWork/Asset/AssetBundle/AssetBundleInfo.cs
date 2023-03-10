@@ -1,12 +1,4 @@
-﻿/*-------------------------------------------------------------------------------------------
-// Copyright (C) 2019 北京，天龙互娱
-//
-// 模块名：AssetBundleInfo
-// 创建日期：2019-1-10
-// 创建者：waicheng.wang
-// 模块描述：单个ab包的描述
-//-------------------------------------------------------------------------------------------*/
-namespace DragonU3DSDK.Asset
+﻿namespace DragonU3DSDK.Asset
 {
     [System.Serializable]
     public enum AssetState

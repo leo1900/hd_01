@@ -1,12 +1,4 @@
-﻿/*-------------------------------------------------------------------------------------------
-// Copyright (C) 2019 北京，天龙互娱
-//
-// 模块名：VersionInfo
-// 创建日期：2019-1-9
-// 创建者：waicheng.wang
-// 模块描述：version文件的数据结构，用来描述所有assetbundle包
-//-------------------------------------------------------------------------------------------*/
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace DragonU3DSDK.Asset
 {

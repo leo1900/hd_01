@@ -1,13 +1,4 @@
-﻿/*-------------------------------------------------------------------------------------------
-// Copyright (C) 2019 北京，天龙互娱
-//
-// 模块名：FilePathTools
-// 创建日期：2019-1-10
-// 创建者：waicheng.wang
-// 模块描述：文件、路径操作封装
-//-------------------------------------------------------------------------------------------*/
-
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading;

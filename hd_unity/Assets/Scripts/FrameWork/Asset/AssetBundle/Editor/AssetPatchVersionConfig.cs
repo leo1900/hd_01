@@ -1,12 +1,4 @@
-﻿/*-------------------------------------------------------------------------------------------
-// Copyright (C) 2020 成都，天龙互娱
-//
-// 模块名：BuildAssetBundles
-// 创建日期：2020-7-21
-// 创建者：qibo.li
-// 模块描述：AssetBundle打包迭代bundle的hash值
-//-------------------------------------------------------------------------------------------*/
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using UnityEditor;

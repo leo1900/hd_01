@@ -104,7 +104,7 @@ public class AtlasConfigController : ScriptableObject
             atlasPathNode.SdPath = relativePathWithoutExt;
         else if (relativePathWithoutExt.Contains("/Hd/"))
             atlasPathNode.HdPath = relativePathWithoutExt;
-        else{      //兼容同文件夹下两个图集（hd和sd）的情况（如：hotel3）
+        else{      //兼容同文件夹下两个图集（hd和sd）的情况
             atlasPathNode.HdPath = relativePathWithoutExt;
             atlasPathNode.SdPath = relativePathWithoutExt+".SD";
         }
