@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System;
 
-namespace DragonU3DSDK.Asset
+namespace FrameWork.Asset
 {
     public class AssetConfigPrototype : ScriptableObject
     {

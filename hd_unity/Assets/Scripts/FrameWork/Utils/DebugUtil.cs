@@ -5,7 +5,7 @@ using System;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace DragonU3DSDK
+namespace FrameWork
 {
     public class DebugUtil
     {

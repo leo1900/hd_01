@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace DragonU3DSDK.Asset
+namespace FrameWork.Asset
 {
     public class OnMemoryAssetBundleManager
     {

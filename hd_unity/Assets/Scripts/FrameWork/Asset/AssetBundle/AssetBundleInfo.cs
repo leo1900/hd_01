@@ -1,4 +1,4 @@
-﻿namespace DragonU3DSDK.Asset
+﻿namespace FrameWork.Asset
 {
     [System.Serializable]
     public enum AssetState

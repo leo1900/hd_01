@@ -8,7 +8,7 @@
 //-------------------------------------------------------------------------------------------*/
 using UnityEngine;
 
-namespace DragonU3DSDK.Asset
+namespace FrameWork.Asset
 {
     public class OnMemoryAssetBundle
     {

@@ -65,7 +65,7 @@ public static class TimeSpanExtensions
 
 	public static string GetDateTimeString(long sec)
 	{
-        var v = DragonU3DSDK.Utils.ParseTime (sec);
+        var v = FrameWork.Utils.ParseTime (sec);
 		return string.Format("{0}/{1}/{2} {3:D2}:{4:D2}:{5:D2}", v.Year, v.Month, v.Day, v.Hour, v.Minute, v.Second);
 	}
 }

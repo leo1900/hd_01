@@ -4,7 +4,7 @@ using System;
 using System.IO;
 using UnityEngine.Serialization;
 
-namespace DragonU3DSDK.Asset
+namespace FrameWork.Asset
 {
     [Serializable]
     public class BundleState

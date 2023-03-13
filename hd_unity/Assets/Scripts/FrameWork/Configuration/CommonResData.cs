@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System;
 using System.IO;
 
-namespace DragonU3DSDK.Asset
+namespace FrameWork.Asset
 {
     [Serializable]
     public class BaseVersionFileItem

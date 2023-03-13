@@ -7,7 +7,7 @@ using System;
 using BestHTTP;
 using System.Net;
 
-namespace DragonU3DSDK.Asset
+namespace FrameWork.Asset
 {
     public static partial class BuildAssetBundles
     {

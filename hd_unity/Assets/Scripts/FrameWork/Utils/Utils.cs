@@ -9,7 +9,7 @@ using Newtonsoft.Json;
 using UnityEngine;
 using UnityEngine.Networking;
 
-namespace DragonU3DSDK
+namespace FrameWork
 {
     public static class EnumDef
     {

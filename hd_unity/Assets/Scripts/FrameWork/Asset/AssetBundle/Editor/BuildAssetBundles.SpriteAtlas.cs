@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEngine;
 using System.IO;
 
-namespace DragonU3DSDK.Asset
+namespace FrameWork.Asset
 {
     public static partial class BuildAssetBundles
     {

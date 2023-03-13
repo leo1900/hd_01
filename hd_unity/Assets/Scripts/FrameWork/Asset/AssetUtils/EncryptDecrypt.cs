@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace DragonU3DSDK.Asset
+namespace FrameWork.Asset
 {
     public static class EncryptDecrypt
     {

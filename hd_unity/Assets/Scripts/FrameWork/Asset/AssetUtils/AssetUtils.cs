@@ -2,7 +2,7 @@
 using System.IO;
 using System.Security.Cryptography;
 
-namespace DragonU3DSDK.Asset
+namespace FrameWork.Asset
 {
     public static class AssetUtils
     {

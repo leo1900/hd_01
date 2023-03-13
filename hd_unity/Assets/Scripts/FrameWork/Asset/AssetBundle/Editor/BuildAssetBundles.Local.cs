@@ -11,7 +11,7 @@ using Newtonsoft.Json.Utilities;
 using Debug = UnityEngine.Debug;
 using UObject = UnityEngine.Object;
 
-namespace DragonU3DSDK.Asset
+namespace FrameWork.Asset
 {
     public static partial class BuildAssetBundles
     {

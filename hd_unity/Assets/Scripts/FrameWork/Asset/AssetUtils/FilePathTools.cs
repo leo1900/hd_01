@@ -5,7 +5,7 @@ using System.Threading;
 using System;
 using System.Text.RegularExpressions;
 
-namespace DragonU3DSDK.Asset
+namespace FrameWork.Asset
 {
     public static class FilePathTools
     {

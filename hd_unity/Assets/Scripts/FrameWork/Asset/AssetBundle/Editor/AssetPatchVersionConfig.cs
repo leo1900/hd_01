@@ -4,7 +4,7 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace DragonU3DSDK.Asset
+namespace FrameWork.Asset
 {
     [Serializable]
     public class AssetPatchVersion

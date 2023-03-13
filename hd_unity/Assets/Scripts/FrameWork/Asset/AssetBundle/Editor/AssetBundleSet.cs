@@ -2,7 +2,7 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace DragonU3DSDK.Asset
+namespace FrameWork.Asset
 {
     public class AssetBundleSet : ScriptableObject
     {
