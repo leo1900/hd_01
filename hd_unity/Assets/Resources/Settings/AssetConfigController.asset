@@ -18,8 +18,18 @@ MonoBehaviour:
   IOSVersionCode: 1
   UseAssetBundle: 0
   CopyBundleToDownloadPath: 0
-  ResPubLibraryUseAssetBundle: 1
-  Groups: []
+  Groups:
+  - GroupName: UI
+    Version: v1_0_0
+    GroupIndex: 1
+    Paths:
+    - Path: Prefabs/UI
+      InInitialPacket: 1
+      FromOutside: 0
+      NameOutside: 
+      GroupOutside: 
+      PathOutside: 
+    UpdateWholeAB: 1
   ActivityResPaths: []
   ProjectPretreatmentDelegate: {fileID: 0}
-  EnhancedEncryptionSecret: 
+  EnhancedEncryptionSecret: 55ccde5a7cb81567

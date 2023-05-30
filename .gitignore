@@ -22,3 +22,4 @@ hd_unity/Assets/Resources/versionfile.meta
 hd_unity/Assembly-CSharp-Editor.csproj
 *.csproj
 *.sln
+hd_unity/Assets/StreamingAssets
